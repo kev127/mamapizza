@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+}
+.navi{
+    float: right;
+}
+.exe{
+    color: darkorange;
+}
+#mama-pizza{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: darkred;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+.menu-btn{
+    border-radius: 20px;
+    margin-top: 20px;
+    color: black;
+}
+menu{
+    padding-top: 20px;
+}
+#order-list{
+    color: black;
+}
+#list li{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.deliver, .No-delivery{
+    margin: 10px;
+}
+#order-your-pizza{
+    padding: 25px 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+}
+.order-overlay{
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+.Your-order{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#list{
+    color: black;
+}
+.menu{
+    margin-top: 30px;
+    padding: 0;
+}
+#menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+}
+.menu-overlay{
+    height: inherit;
+    width: inherit;
+}
