@@ -1,72 +1,182 @@
-*{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-.body{
+ body{
     margin: 0;
+    height: auto;
     padding: 0;
-    color: darkgray;
-}
-.navi{
-    float: right;
-}
-.exe{
-    color: darkorange;
-}
-#mama-pizza{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    background-color: dimgray;
+ }
+ .navi{
+     float: right;
+ }
+ #mama-pizza{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
     font-weight: 500;
     color: darkred;
 }
 li{
     display: inline;
     margin-right: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: floralwh;
 }
 .menu-btn{
     border-radius: 20px;
     margin-top: 20px;
     color: black;
-}
-menu{
+}#menu{
     padding-top: 20px;
 }
-#order-list{
-    color: black;
+#order-your-pizza{
+    color: #000;
 }
 #list li{
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
-.deliver, .No-delivery{
-    margin: 10px;
-}
-#order-your-pizza{
-    padding: 25px 55px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    text-align: center;
-}
-.order-overlay{
-    height: inherit;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 20px;
-}
-.Your-order{
-    border-radius: 20px;
-    margin-top: 20px;
-}
-#list{
+.order-summary h1{
     color: black;
-}
-.menu{
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 30px;
-    padding: 0;
+    font-size: 45px;
 }
-#menu{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+.summary{
+    color: black;
+    background-image: url("../images/c.jpeg");
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-size: 45px;
+} 
+.click-me{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.get-pizza{
+    margin-top: 40px;
+}
+.cstdata{
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.data{
+    height: inherit;
+    border-radius: 10px;
+}
+.click-me, button[type=button], .showPosition{
+    color: whitesmoke;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+    padding-right: 75%;
+    text-align: center;
+} 
+.checkout-panel {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    height: 766px;
+    background-color: lightslategray;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  }
+  #order-pizza{
+      padding: 20px 50px 20px 50px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .order-pizza h1{
+      text-align: center;
+  }
+  .order-overlay{
+      height: inherit;
+      padding: 20px;
+      border-radius: 20px;
+  }
+  .checkout{
+      border-radius: 20px;
+      margin-top: 20px;
+      text-align: center;
+  }
+  #list{
+      color: black;
+  }
+  .menu{
+      margin-top: 30px;
+      padding: 0;
+  }
+  #menu{
+      font-family: 'Times New Roman', Times, serif;
+  }
 .menu-overlay{
     height: inherit;
     width: inherit;
 }
+.welcome{
+    background-image: url("../images/c.jpeg");
+    background-position: center;
+}
+.welcome-text{
+    margin-top: 10%;
+}
+.welcome-text h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: black;
+    font-weight: bolder;
+}
+.payment-method {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.payment-method h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.payment-method h2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer p{
+    margin-top: 10px;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
